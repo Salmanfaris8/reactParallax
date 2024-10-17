@@ -1,0 +1,128 @@
+.footer {
+    background-color: #0d0d0d;
+    color: white;
+    padding: 60px 0px 0px 0px;
+    position: relative;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+}
+.about1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-section h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #e50914;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.footer-section p {
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 15px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #e50914;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #b50914;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+}
+
+.social-icons li {
+    margin-right: 15px;
+}
+
+.social-icons li img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons li i:hover {
+    transform: scale(1.1);
+    color: #e50914;
+}
+
+.footer-bottom {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.85em;
+    border-top: 1px solid #333;
+}
+
+.footer-bottom a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}

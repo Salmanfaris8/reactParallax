@@ -1,0 +1,75 @@
+.about-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+.about{
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-p1{
+    width: 500px;
+    margin-top: 20px;
+}
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#img1{
+    background-image: url(https://wallpapercave.com/wp/HaaEipp.jpg);
+}
+#img2{
+    background-image: url(https://i.pinimg.com/originals/dc/4d/d8/dc4dd8b0c099cf9fcc42afd2f4044fd3.jpg);
+}
+
+.games{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: black;
+}
+
+.games-d1{
+    display: flex;    
+    justify-content: space-between;
+    width: 1300px;
+}
+
+.games-card{
+    cursor: pointer;
+    border: solid 2px white;
+    border-radius: 15px;
+    background-color: rgb(43, 41, 41);
+}
+
+.games-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(244, 244, 244, 0.19);
+}
+.games-card-img{
+    border-radius:  13px 13px 0px 0px;
+}
+
+.games-span{
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: rgb(204, 201, 201);
+}
+
+.games-sp-2{
+    font-size: 14px;
+}
+.button-game{
+    background-color: white;
+}
+.button-game:hover{
+    background-color: gray;
+}

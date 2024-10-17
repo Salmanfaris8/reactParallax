@@ -1,0 +1,23 @@
+nav{
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.nav-d1{
+    background-color: rgba(255, 255, 255, 0.001);
+}
+.nav-d1 a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 600;
+}
+.nav-all a img{
+    background-color: rgba(255, 255, 255, 0);
+}
+.nav-all{
+    background-color: rgba(0, 0, 0, 0.229);
+}
+.nav-i{
+    background-color: rgba(240, 248, 255, 0);
+}
